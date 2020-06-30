@@ -1,8 +1,8 @@
 {
   "name": "Portfolio: Patryk Makarewicz",
   "short_name": "Portfolio: PM",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/wtf-webpack-starter/",
