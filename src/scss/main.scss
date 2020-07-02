@@ -15,7 +15,25 @@ body {
   background: #2D2241;
   color: #fff;
   display: flex;
-  align-items: center;
   justify-content: center;
   min-height: 100vh;
+}
+
+.header {
+  background-color: yellowgreen;
+  text-align: center;
+  padding: 16px;
+}
+
+.section__hello {
+  padding: 16px;
+  margin: 64px 0px 88px 0px;
+  background-color: yellow;
+  width: 100vw;
+}
+
+.photo {
+  width: 96px;
+  border-radius: 50%;
+  align-items: center;
 }
