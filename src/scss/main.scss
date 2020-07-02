@@ -12,28 +12,30 @@ html {
 }
 
 body {
-  background: #2D2241;
-  color: #fff;
   display: flex;
   justify-content: center;
   min-height: 100vh;
 }
 
-.header {
-  background-color: yellowgreen;
+
+.hello__section {
+  display: block;
   text-align: center;
   padding: 16px;
-}
-
-.section__hello {
-  padding: 16px;
-  margin: 64px 0px 88px 0px;
-  background-color: yellow;
+  margin: 0px 0px 88px 0px;
+  background-color: white;
   width: 100vw;
 }
 
-.photo {
+.hello__photo {
+  margin-top: 98px;
   width: 96px;
   border-radius: 50%;
   align-items: center;
 }
+
+.skills__section {
+  background-color: #1070CA;
+  text-align: center;
+}
+
