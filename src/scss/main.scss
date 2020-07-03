@@ -26,7 +26,7 @@ body {
 .mail {
   width: 278px;
   height: 48px;
-  margin-bottom: 88px;
+  margin-bottom: 72px;
   margin-left: auto;
   margin-right: auto;
   background-color: #4da8ff;
@@ -44,10 +44,4 @@ body {
   &:hover {
     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
-}
-
-.link {
-  text-decoration: none;
-  color: #4DA8FF;
-  font-weight: bold;
 }

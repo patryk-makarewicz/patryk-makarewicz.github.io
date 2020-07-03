@@ -1,4 +1,48 @@
 .footer {
-    background-color: #dbeaf7;
-    text-align: center;
+  background-color: #dbeaf7;
+  text-align: center;
+  margin-top: 0;
+  color: #234361;
+  padding: 16px;
+  &__content {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: #425a70;
+    width: 288px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 56px;
   }
+  &__header {
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 48px;
+    margin-bottom: 32px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    width: 288px;
+  }
+  &__logo {
+      width: 24px;
+      margin: 12px auto 0 auto;
+  }
+  &__link {
+    width: 48px;
+    height: 48px;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  &__link:hover {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}
