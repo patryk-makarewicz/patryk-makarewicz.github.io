@@ -1,5 +1,7 @@
 @import "~normalize.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700&display=swap');
+
 
 html {
   box-sizing: border-box;
@@ -15,10 +17,11 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
+  font-family: 'Nunito', sans-serif;
 }
 
 
-.hello__section {
+.hello {
   display: block;
   text-align: center;
   padding: 16px;
@@ -34,7 +37,20 @@ body {
   align-items: center;
 }
 
-.skills__section {
+.hello__header {
+  margin-top: 40px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 32px;
+  color: #234361;
+}
+.hello__span {
+  color: #1070CA;
+}
+
+.skill__section {
   background-color: #1070CA;
   text-align: center;
 }
@@ -43,7 +59,7 @@ body {
   text-align: center;
 }
 
-.contact__section {
+.footer {
   background-color: #DBEAF7;
   text-align: center;
 }
