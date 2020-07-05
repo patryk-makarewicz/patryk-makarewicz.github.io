@@ -14,7 +14,7 @@ fetch('https://api.github.com/users/patryk-makarewicz/repos?sort=created')
         const repozytoryList = document.querySelector('.list--js');
         const myTemplateTwo = `
         <div class="box__top">
-          <img class="box__circles" src="/src/assets/img/circles_top.png" />
+          <img class="box__circles" src="../assets/img/circles_top.png" />
         </div>
         <div class="box">
           <svg
