@@ -2,7 +2,7 @@
 
 # General info
 
-This is my portfolio.
+This is my portfolio website.
 
 ## Working knowledge
 
