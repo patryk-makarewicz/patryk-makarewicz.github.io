@@ -29,7 +29,7 @@ This is my portfolio website.
 ## About me
 
 I'm starts a new chapter in my life with programming. <br/>
-I'm the father of twins who loves to create code, technological innovations and fast cars.
+I'm father of twins who loves to create code, technological innovations and fast cars.
 
 ## How to use it?
 
