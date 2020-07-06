@@ -2,9 +2,10 @@
   background-color: #1070ca;
   text-align: center;
   margin-top: 0;
+  margin-right: auto;
+  margin-right: auto;
   color: #ffffff;
   padding: 16px;
-  
   &__section {
     @media screen and (min-width: 960px) {
       display: flex;
@@ -21,7 +22,7 @@
     margin-left: auto;
     margin-right: auto;
     @media screen and (min-width: 960px) {
-      width: 379px;
+      width: 320px;
       justify-content: flex-start;
     }
   }
@@ -31,7 +32,7 @@
     margin-top: 0;
     margin-bottom: 16px;
     @media screen and (min-width: 960px) {
-      width: 379px;
+      width: 320px;
     }
   }
   &__header {
@@ -45,6 +46,7 @@
     font-size: 36px;
     line-height: 48px;
     @media screen and (min-width: 960px) {
+      width: 782px;
       font-weight: bold;
       font-size: 48px;
       line-height: 56px;
