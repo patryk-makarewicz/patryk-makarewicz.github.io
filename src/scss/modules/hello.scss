@@ -27,7 +27,7 @@
     color: #425a70;
     width: 288px;
     @media screen and (min-width: 960px) {
-      width: 830px;
+      width: 720px;
       font-weight: 300;
       font-size: 20px;
       line-height: 40px;
@@ -42,7 +42,7 @@
     color: #234361;
     width: 288px;
     @media screen and (min-width: 960px) {
-      width: 830px;
+      width: 720px;
       font-weight: bold;
       font-size: 32px;
       line-height: 40px;
@@ -83,6 +83,7 @@
   font-size: 32px;
   line-height: 40px;
   color: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   &__content {
     text-align: center;
     padding-top: 16px;
@@ -97,4 +98,20 @@
     transform-origin: center center;
   }
 }
+}
+
+.bracket {
+  &__img {
+    display: none;
+    @media screen and (min-width: 960px) {
+      display: block;
+    }
+  }
+  @media screen and (min-width: 960px) {
+  display: grid;
+  grid-template-columns: 85px 750px 85px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  }
 }
