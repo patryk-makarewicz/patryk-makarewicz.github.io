@@ -4,6 +4,15 @@
   margin-top: 0;
   color: #ffffff;
   padding: 16px;
+  
+  &__section {
+    @media screen and (min-width: 960px) {
+      display: flex;
+      max-width: 1184px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
   &__article {
     display: flex;
     justify-content: center;
@@ -11,12 +20,19 @@
     width: 288px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (min-width: 960px) {
+      width: 379px;
+      justify-content: flex-start;
+    }
   }
   &__emoji {
     font-size: 64px;
     line-height: 72px;
     margin-top: 0;
     margin-bottom: 16px;
+    @media screen and (min-width: 960px) {
+      width: 379px;
+    }
   }
   &__header {
     margin-top: 0;
@@ -28,6 +44,11 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
+    @media screen and (min-width: 960px) {
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+    }
   }
   &__title {
     font-style: normal;
@@ -46,6 +67,10 @@
   margin-top: 0;
   padding-left: 0;
   color: #dbeaf7;
+  @media screen and (min-width: 960px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
   &__item {
     font-style: normal;
     font-weight: 300;

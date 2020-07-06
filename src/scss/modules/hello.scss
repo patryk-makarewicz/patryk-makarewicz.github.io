@@ -16,6 +16,9 @@
     width: 288px;
     @media screen and (min-width: 960px) {
       width: 830px;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 40px;
     }
   }
   &__header {
@@ -28,6 +31,9 @@
     width: 288px;
     @media screen and (min-width: 960px) {
       width: 830px;
+      font-weight: bold;
+      font-size: 32px;
+      line-height: 40px;
     }
   }
   &__link {
