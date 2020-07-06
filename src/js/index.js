@@ -1,20 +1,22 @@
-import '../scss/main.scss';
-
+import "../scss/main.scss";
 
 /* place your code below */
 
-console.log('HELLO 🚀')
+console.log("HELLO 🚀");
 
-
-fetch('https://api.github.com/users/patryk-makarewicz/repos?sort=created')
-.then(resp => resp.json())
-.then(resp => {
+fetch("https://api.github.com/users/patryk-makarewicz/repos?sort=created")
+  .then((resp) => resp.json())
+  .then((resp) => {
     for (let repo of resp) {
-        const {name, description, homepage, html_url} = repo;
-        const repozytoryList = document.querySelector('.list--js');
-        const myTemplateTwo = `
+      const { name, description, homepage, html_url } = repo;
+      const repozytoryList = document.querySelector(".list--js");
+      const myTemplate = `
         <div class="box__top">
-          <img class="box__circles" src="../assets/img/circles_top.png" />
+          <svg class="box__circles" width="40" height="8" viewBox="0 0 40 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="4" cy="4" r="4" fill="#464A4D"/>
+            <circle cx="20" cy="4" r="4" fill="#464A4D"/>
+            <circle cx="36" cy="4" r="4" fill="#464A4D"/>
+          </svg>
         </div>
         <div class="box">
           <svg
@@ -39,12 +41,11 @@ fetch('https://api.github.com/users/patryk-makarewicz/repos?sort=created')
           </div>
         </div>
         `;
-        if (description){
-            repozytoryList.innerHTML += myTemplateTwo;
-        }
+      if (description) {
+        repozytoryList.innerHTML += myTemplate;
+      }
     }
-    
-})
-.catch((error) => {
-console.log('Nie udało się pobrać repozytoriów.');
-})
+  })
+  .catch((error) => {
+    console.log("Nie udało się pobrać repozytoriów.");
+  });
