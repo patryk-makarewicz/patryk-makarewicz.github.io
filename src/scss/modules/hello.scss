@@ -1,3 +1,15 @@
+@keyframes wave {
+  0% {
+      transform: rotate(-10deg);
+  }
+  50% {
+      transform: rotate(30deg);
+  }
+  100% {
+      transform: rotate(-10deg);
+  }
+}
+
 .hello {
   display: block;
   text-align: center;
@@ -58,10 +70,9 @@
 }
 
 .cloud {
-  color: white;
-  width: 1px;
-  height: 1px;
+  display: none;
   @media screen and (min-width: 960px) {
+  display: inline-block;
   background-color: #1070CA;
   position: absolute;
   border-radius: 16px;;
@@ -79,6 +90,11 @@
   }
   &__speech {
     margin-right: 180px;
+  }
+  &__hand {
+    display: inline-block;
+    animation: wave 1.5s ease-in-out infinite;
+    transform-origin: center center;
   }
 }
 }
