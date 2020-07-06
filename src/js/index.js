@@ -34,14 +34,14 @@ fetch("https://api.github.com/users/patryk-makarewicz/repos?sort=created")
             />
           </svg>
           <div class="box__git">
-        <p>project: <span class="repo__name">${name}</span> <br>
-        description: <span class="repo__description">${description}</span> </p>
-        <p>demo: &lt;<a href="${homepage}" title="link to live ${name}"><span class="repo__link">see here</span></a>&gt; <br>
-        github: &lt;<a href="${html_url}" title="link to repozytory ${name} 
-        on github"><span class="repo__link">sorce code</span></a>&gt;</p>
+            <span class="repo">project:</span> <span class="repo__name">${name}</span>
+            <span class="repo">description:</span> <span class="repo__description">${description}</span> 
+            <span class="repo">demo:</span> <span class="repo__link"> &lt;<a href="${homepage}" title="link to live ${name}">see here</a>&gt;</span>
+            <span class="repo">github:</span><span class="repo__link"> &lt;<a href="${html_url}" title="link to repozytory ${name} 
+            on github">sorce code</a>&gt;</span>
           </div>
         </div>
-        </div>
+      </div>
         `;
       if (description) {
         repozytoryList.innerHTML += myTemplate;
