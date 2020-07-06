@@ -49,6 +49,9 @@
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  @media screen and (min-width: 960px) {
+    width: 450px; 
+  }
   &__circles {
     margin-left: 16px;
   }
@@ -57,6 +60,9 @@
     margin-right: auto;
     margin-bottom: 24px;
     width: 255px;
+    @media screen and (min-width: 960px) {
+      width: 440px; 
+    }
   }
   &__logo {
     width: 24px;
@@ -67,6 +73,14 @@
     font-size: 13px;
     line-height: 24px;
     color: #808082;
+    @media screen and (min-width: 960px) {
+      width: 960px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
   &__top {
     display: flex;
@@ -79,6 +93,12 @@
     width: 287px;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (min-width: 960px) {
+      width: 450px; 
+    }
+  }
+  &__window {
+    margin: 0 12px 24px 12px;
   }
 }
 

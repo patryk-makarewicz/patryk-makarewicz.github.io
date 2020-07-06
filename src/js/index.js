@@ -11,6 +11,7 @@ fetch("https://api.github.com/users/patryk-makarewicz/repos?sort=created")
       const { name, description, homepage, html_url } = repo;
       const repozytoryList = document.querySelector(".list--js");
       const myTemplate = `
+      <div class="box__window">
         <div class="box__top">
           <svg class="box__circles" width="40" height="8" viewBox="0 0 40 8" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="4" cy="4" r="4" fill="#464A4D"/>
@@ -39,6 +40,7 @@ fetch("https://api.github.com/users/patryk-makarewicz/repos?sort=created")
         github: &lt;<a href="${html_url}" title="link to repozytory ${name} 
         on github"><span class="repo__link">sorce code</span></a>&gt;</p>
           </div>
+        </div>
         </div>
         `;
       if (description) {
