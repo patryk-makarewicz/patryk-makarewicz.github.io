@@ -10,6 +10,12 @@
     color: #425a70;
     width: 288px;
     margin: 0 auto 46px auto;
+    @media screen and (min-width: 960px) {
+      width: 782px;
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 40px;
+    }
   }
   &__header {
     font-weight: bold;
@@ -20,6 +26,13 @@
     width: 288px;
     margin: 0 auto 32px auto;
     padding-top: 48px;
+    @media screen and (min-width: 960px) {
+      width: 782px;
+      padding-top: 64px;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 56px;
+    }
   }
 }
 
