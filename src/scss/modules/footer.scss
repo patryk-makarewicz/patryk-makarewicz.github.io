@@ -14,7 +14,7 @@
     max-width: 600px;
     margin: 0 auto 56px auto;
     @media screen and (min-width: 960px) {
-      width: 782px;
+      max-width: 782px;
       font-weight: 300;
       font-size: 20px;
       line-height: 40px;
