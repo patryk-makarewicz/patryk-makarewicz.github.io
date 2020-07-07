@@ -10,7 +10,8 @@
     font-size: 16px;
     line-height: 32px;
     color: #425a70;
-    width: 288px;
+    min-width: 288px;
+    max-width: 600px;
     margin: 0 auto 56px auto;
     @media screen and (min-width: 960px) {
       width: 782px;
@@ -26,7 +27,8 @@
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
-    width: 288px;
+    min-width: 288px;
+    max-width: 600px;
     @media screen and (min-width: 960px) {
       width: 782px;
       padding-top: 64px;

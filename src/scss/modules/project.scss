@@ -8,7 +8,8 @@
     line-height: 32px;
     text-align: center;
     color: #425a70;
-    width: 288px;
+    min-width: 288px;
+    max-width: 600px;
     margin: 0 auto 46px auto;
     @media screen and (min-width: 960px) {
       width: 782px;
@@ -23,7 +24,8 @@
     line-height: 48px;
     text-align: center;
     color: #234361;
-    width: 288px;
+    min-width: 288px;
+    max-width: 600px;
     margin: 0 auto 32px auto;
     padding-top: 48px;
     @media screen and (min-width: 960px) {

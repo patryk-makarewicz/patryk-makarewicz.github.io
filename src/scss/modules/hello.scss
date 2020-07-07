@@ -25,7 +25,8 @@
     line-height: 32px;
     text-align: center;
     color: #425a70;
-    width: 288px;
+    min-width: 288px;
+    max-width: 600px;
     @media screen and (min-width: 960px) {
       width: 720px;
       font-weight: 300;
@@ -40,7 +41,8 @@
     font-size: 26px;
     line-height: 32px;
     color: #234361;
-    width: 288px;
+    min-width: 288px;
+    max-width: 600px;
     @media screen and (min-width: 960px) {
       width: 720px;
       font-weight: bold;
