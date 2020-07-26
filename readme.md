@@ -31,6 +31,10 @@ This is my portfolio website.
 I'm starts a new chapter in my life with programming. <br/>
 I'm father of twins who loves to create code, technological innovations and fast cars.
 
+## View:
+
+To watch click [here]
+
 ## How to use it?
 
 Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
@@ -38,3 +42,5 @@ Click on `Use this template` button to generate a new repository based on this s
 ## Available scripts
 
 `npm run start` - runs development mode
+
+[here]: https://patryk-makarewicz.github.io/
