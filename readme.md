@@ -6,41 +6,36 @@ This is my portfolio website.
 
 ## Working knowledge
 
-✔ Semantic HTML5 <br/>
-✔ Flexbox <br/>
+✔ HTML5 <br/>
+✔ CSS3 <br/>
+✔ SASS <br/>
+✔ JavaScript: Local storage <br/>
+✔ JavaScript: DOM manipulations <br/>
 ✔ Markdown <br/>
-✔ JS: Local storage <br/>
-✔ Figma <br/>
-✔ CSS grid <br/>
-✔ Forms <br/>
-✔ JS: DOM manipulations <br/>
-✔ SASS
+✔ Bootstrap <br/>
+✔ Figma
 
 ## Know something about:
 
-⚪ JavaScript ES6 + features <br/>
+⚪ JavaScript ES6 (ECMAScript 6) <br/>
+⚪ React.js <br/>
+⚪ Node.js <br/>
+⚪ NPM <br/>
+⚪ JSON <br/>
+⚪ MongoDB <br/>
+⚪ GIT <br/>
 ⚪ CSS animations <br/>
 ⚪ Working with API <br/>
-⚪ NPM Scripts <br/>
-⚪ Progresive web apps <br/>
-⚪ GIT <br/>
-⚪ Accessibility
+⚪ Accessibility <br/>
+⚪ Progresive web apps
 
 ## About me
 
-I'm starts a new chapter in my life with programming. <br/>
-I'm father of twins who loves to create code, technological innovations and fast cars.
+I started my frontend developer path in March 2020. Since then, I’ve built some projects.
 
-## View:
+## View my Portfolio:
 
 To watch click [here]
 
-## How to use it?
-
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
-
-## Available scripts
-
-`npm run start` - runs development mode
 
 [here]: https://patryk-makarewicz.github.io/
