@@ -1,10 +1,10 @@
 ![cover](./gh/Patryk_Makarewicz.png)
 
-# General info
+# General info:
 
 This is my portfolio website.
 
-## Working knowledge
+## Working knowledge:
 
 ✔ HTML5 <br/>
 ✔ CSS3 <br/>
@@ -29,11 +29,11 @@ This is my portfolio website.
 ⚪ Accessibility <br/>
 ⚪ Progresive web apps
 
-## About me
+## About me:
 
 I started my frontend developer path in March 2020. Since then, I’ve built some projects.
 
-## View my Portfolio:
+## View:
 
 To watch click [here]
 
