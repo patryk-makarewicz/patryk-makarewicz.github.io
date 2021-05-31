@@ -3,6 +3,7 @@
 # General info:
 
 This is my portfolio website. To watch click [here]
+
 [here]: https://patryk-makarewicz.github.io/
 
 ## Working knowledge:
